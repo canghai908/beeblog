@@ -1,10 +1,10 @@
 package main
 
 import (
-	"beeblog/controllers"
-	"beeblog/models"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
+	"github.com/canghai908/beeblog/controllers"
+	"github.com/canghai908/beeblog/models"
 )
 
 func init() {
