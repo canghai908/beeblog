@@ -9,5 +9,5 @@ type AdminController struct {
 }
 
 func (this *AdminController) Get() {
-	this.TplNames = ""
+	this.TplName = ""
 }

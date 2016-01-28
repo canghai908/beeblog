@@ -42,7 +42,7 @@ func (this *CategoryController) Get() {
 	}
 
 	this.Data["IsCategory"] = true
-	this.TplNames = "category.html"
+	this.TplName = "category.html"
 	this.Data["IsLogin"] = checkAccount(this.Ctx)
 
 	var err error

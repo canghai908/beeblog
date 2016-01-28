@@ -18,7 +18,7 @@ func (this *LoginController) Get() {
 		return
 	}
 
-	this.TplNames = "login.html"
+	this.TplName = "login.html"
 }
 
 func (this *LoginController) Post() {
